@@ -444,10 +444,10 @@
       animation: ani-mouse 2s linear infinite;
     }
     /*========== About ==========*/
-    /* .about.section{
-      margin-top: 50rem;
-      margin-bottom: ;
-    } */
+    .about.section{
+      margin-top: 9rem;
+     
+    }
     .about-img
     {
       flex: 0 0 25%;
@@ -1238,6 +1238,10 @@
     }
     @media only screen and (max-width:1200px)
     {
+      .about.section{
+        padding-top: 0;
+       
+      }
       .customize-theme .card
       {
         width: 50vw;
