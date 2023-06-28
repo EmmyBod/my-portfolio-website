@@ -444,10 +444,10 @@
       animation: ani-mouse 2s linear infinite;
     }
     /*========== About ==========*/
-    .about.section{
+    /* .about.section{
       margin-top: 9rem;
      
-    }
+    } */
     .about-img
     {
       flex: 0 0 25%;
@@ -1238,10 +1238,6 @@
     }
     @media only screen and (max-width:1200px)
     {
-      .about.section{
-        padding-top: 0;
-       
-      }
       .customize-theme .card
       {
         width: 50vw;
@@ -1400,6 +1396,10 @@
     }
     @media only screen and (max-width:320px)
     {
+      .about.section{
+        margin-top: 9rem;
+       
+      }
       .fact-item
       {
         flex: 0 0 100%;
