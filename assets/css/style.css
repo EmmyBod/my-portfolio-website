@@ -306,8 +306,11 @@
       /* align-items: center; */
       padding: 0 9%;
       height: 100vh;
-      min-height: 100vh;
+      min-height: 125vh;
     }
+    /* .container{
+      border: 3px solid blueviolet;
+    } */
     .container .text-animate{
       position: relative;
       /* width: 32.8rem; */
@@ -1395,7 +1398,8 @@
       }
     }
     @media only screen and (max-width:320px)
-    {
+    { 
+      
       .about.section{
         margin-top: 9rem;
        
